@@ -2,7 +2,7 @@
 # EchoLi Rust docker image
 # @build-example docker build -t echoli/httpserver .
 ##
-FROM debian:buster-slim
+FROM rust:slim
 
 COPY . /www
 
