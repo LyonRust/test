@@ -6,6 +6,8 @@ FROM scratch
 
 COPY . /www
 
+WORKDIR /www
+
 EXPOSE 8000
 
 CMD ["/www/antapi"]
