@@ -4,8 +4,8 @@
 ##
 FROM debian:buster-slim
 
-COPY . .
+COPY . /www
 
 EXPOSE 8000
 
-CMD ["antapi"]
+CMD ["/www/antapi"]
